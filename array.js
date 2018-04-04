@@ -85,7 +85,11 @@ function main() {
   arr.push('test');
   arr.push('another push');
   arr.push('dont allocate somewhere else');
-
+  arr.pop();
+  arr.pop();
+  arr.pop();
+  arr.pop();
+  arr.pop();
   //console logs the length, capacity and ptr address
   console.log(arr);
 
